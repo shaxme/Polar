@@ -1,0 +1,630 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
+/* hind-madurai-300 - latin */
+@font-face {
+  font-family: 'Hind Madurai';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('../fonts/hind-madurai-v11-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/hind-madurai-v11-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* hind-madurai-regular - latin */
+@font-face {
+  font-family: 'Hind Madurai';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/hind-madurai-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/hind-madurai-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* hind-madurai-500 - latin */
+@font-face {
+  font-family: 'Hind Madurai';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/hind-madurai-v11-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/hind-madurai-v11-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* hind-madurai-600 - latin */
+@font-face {
+  font-family: 'Hind Madurai';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('../fonts/hind-madurai-v11-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/hind-madurai-v11-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* hind-madurai-700 - latin */
+@font-face {
+  font-family: 'Hind Madurai';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/hind-madurai-v11-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/hind-madurai-v11-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* fredoka-one-regular - latin */
+@font-face {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/fredoka-one-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/fredoka-one-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-100 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+img{
+  vertical-align: middle;
+}
+body{
+  margin: 0px;
+}
+.container{
+  width: 1280px;
+  padding: 10px 30px;
+  margin: 0px auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+.header{
+  background-color: #F2CEDA;
+  padding-bottom: 10px;
+  opacity: 0.8;
+}
+.header-inner{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Roboto' sans-serif;
+}
+.header-list{
+  margin: 0;
+}
+.header-item{
+  list-style:none;
+  display: inline-block;
+  padding: 0 20px;
+}
+.active{
+  color: #D23166;
+  font-weight: 700;
+  text-decoration: none;
+}
+.header-link{
+  text-decoration: none;
+  color: #150101;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+}
+.header-buy{
+  width: 165px;
+  text-align: center;
+  text-decoration: none;
+  color:#fff;
+  padding: 15px 40px;
+  background-color:#D23166;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.header-buy:hover{
+  color: #D23166;
+  background-color: #fff;
+  border: 2px solid #D23166;
+  border-radius: 5px;
+}
+.pink-icecream{
+  color: #D23166;
+}
+
+/* main */
+
+.main-sec{
+  background-color: #F2CEDA;
+  padding: 186px 0px 213px;
+  opacity: 0.8;
+  background-image: url(../img/milk.png), url(../img/Ellipse.png), url(../img/icecream.png);
+  background-repeat: no-repeat;
+  background-position: 590px 200px, 850px 350px, 735px 100px;
+}
+.main-inner{
+  width: 665px;
+  height: 370px;
+}
+.span{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.1em;
+
+color: #0F0101;
+
+}
+.main-heading{
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57.33px;
+  line-height: 120.5%;
+  color: #0F0101;
+  margin: 0;
+  margin-bottom: 35px;
+  
+}
+.main-link {
+  opacity: 0.8;
+  
+  
+}
+.main-buy{
+  width: 165px;
+  text-align: center;
+  text-decoration: none;
+  color:#fff;
+  padding: 15px 40px;
+  background-color:#D23166;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.main-buy:hover{
+  color: #D23166;
+  background-color: #fff;
+  border: 2px solid #D23166;
+  border-radius: 5px;
+}
+.main-text{
+  font-family: 'Fredoka One' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.servisec-list{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding-top: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  list-style: none;
+  padding-bottom: 100px;
+}
+.service-item{
+  background: #FFFFFF;
+  margin-top: 100px;
+  
+  }
+.servisec-link{
+  text-decoration: none;
+  list-style: none;
+  display: block;
+  padding: 33px 26px 27px 26px;
+  text-align: center;
+  border-radius: 7px;
+  -webkit-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1);
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1);
+}
+.servisec-heading{
+  font-family: 'Hind Madurai' sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  text-align: center;
+}
+
+.service-title{
+  font-family: 'Hind Madurai';
+font-style: normal;
+
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+
+color: #000000;
+}
+
+.service-describe{
+  font-family: 'Hind Madurai';
+font-style: normal;
+
+width: 198px;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+
+opacity: 0.6;
+}
+.sugar-section{
+  background-color: #F8EDF0;
+}
+.sugar{
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sugar-heading{
+  margin: 0px;
+  padding: 0px;
+  width: 349px;
+font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 600;
+font-size: 44.2px;
+line-height: 49px;
+
+color: #150101;
+}
+.sugar-describe{
+  width: 422px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+margin-bottom: 30px;
+
+color: #150101;
+
+opacity: 0.6;
+}
+.sugar-link{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FAFAFA;
+  padding: 14px 50px 13px 50px;
+  background: #D23166;
+  border-radius: 5px;
+  text-decoration: none;
+  
+}
+.sugar-link:hover{
+  color: #D23166;
+  background-color: #fff;
+  border: 2px solid #D23166;
+  border-radius: 5px;
+}
+
+.sugar-img{
+ margin-left: 120px;
+}
+
+/* secton-tugadii */
+
+.product-heading{
+  font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 600;
+font-size: 44.2px;
+line-height: 61px;
+/* identical to box height */
+margin: 0px;
+padding-top: 147px;
+color: #150101;
+text-align: center;
+padding-bottom: 64px;
+
+}
+
+.product-list{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  margin: 0px;
+  padding-bottom: 110px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+
+}
+
+.product-link{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+text-decoration: none;
+
+color: #000000;
+
+opacity: 0.6;
+}
+
+.home{
+  
+ color: black;
+ border-bottom: 3px solid#D64374;
+}
+
+/* elgnejkgj */
+
+
+.type-box{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  margin: 0px;
+  padding:0px
+}
+
+.types-box{
+  margin-left:70px ;
+}
+
+.types-heading{
+  
+font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 36px;
+/* identical to box height */
+margin: 0px;
+
+
+color: #000000;
+}
+
+.types-describe{
+  width: 454px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #000000;
+
+opacity: 0.7;
+}
+
+.price{
+  font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.delete{
+  font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+-webkit-text-decoration-line: line-through;
+        text-decoration-line: line-through;
+
+color: #000000;
+
+opacity: 0.7;
+  margin-left: 5px;
+}
+
+.types-link{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FAFAFA;
+    padding: 14px 50px 13px 50px;
+    background: #D23166;
+    border-radius: 5px;
+  text-decoration: none;  
+}
+.types-link:hover{
+  color: #D23166;
+  background-color: #fff;
+  border: 2px solid #D23166;
+  border-radius: 5px;
+}
+
+.second{
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  
+}
+.big-person{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.person-box{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  
+}
+
+.person-name{
+  margin-left: 21px;
+}
+
+.name{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+margin: 0px;
+padding: 0px;
+
+
+}
+
+.person-span{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+margin-top: -30;
+opacity: 0.7;
+}
+
+.person-p{
+  width: 322px;
+  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #000000;
+
+opacity: 0.7;
+}
+.person-p::before{
+  content: "";
+  background: #F6762C;
+  display: block;
+}
+
+.scroll{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ppp{
+  margin-top: 80px;
+}
+
+.faces{
+  width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.threecake{
+  margin-left: 225px;
+}
